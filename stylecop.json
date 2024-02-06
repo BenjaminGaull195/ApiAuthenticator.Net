@@ -1,0 +1,49 @@
+{
+    "$schema": "https://raw.githubusercontent.com/DotNetAnalyzers/StyleCopAnalyzers/master/StyleCop.Analyzers/StyleCop.Analyzers/Settings/stylecop.schema.json",
+    "settings": {
+        "indentation": {
+
+        },
+        "spacingRules": {
+
+        },
+        "readabilityRules": {
+
+        },
+        "orderingRules": {
+            "elementOrder": [
+                "kind",
+                "accessibility",
+                "constant",
+                "static",
+                "readonly"
+            ],
+            "usingDirectivesPlacement": "outsideNamespace",
+            "blankLinesBetweenUsingGroups": "allow"
+        },
+        "namingRules": {
+
+        },
+        "maintainabilityRules": {
+            "topLevelTypes": [
+                "class",
+                "interface",
+                "struct",
+                "enum"
+            ]
+        },
+        "layoutRules": {
+            "newlineAtEndOfFile": "allow",
+            "allowConsecutiveUsings": true,
+            "allowDoWhileOnClosingBrace": false
+        },
+        "documentationRules": {
+            "companyName": "Gaull Development",
+            "copyrightText": "Copyright (c) {companyName}. All rights reserved.\nLicensed under the {licenseName} license. See {licenseFile} file in the project root for full license information.",
+            "variables": {
+              "licenseName": "GNU General Public License V3",
+              "licenseFile": "LICENSE"
+            }
+        }
+    }
+}
